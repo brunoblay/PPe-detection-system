@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ObjectDetection-YOLOv8</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #000;
+        }
+
+        header {
+            background-color: #64b5f6;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: white;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .details {
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            background-color: #bbdefb;
+            color: #000;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #90caf9;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .feature-item img {
+            border-radius: 10px;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .subpart1, .subpart2 {
+            flex: 1 1 300px;
+            max-width: 600px;
+        }
+
+        .subpart2 figure img {
+            border-radius: 4%;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        footer {
+            background-color: #64b5f6;
+            text-align: center;
+            padding: 10px 0;
+            color: white;
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            .details {
+                font-size: 20px;
+            }
+
+            .main {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">SafetyGuard</div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                
+                <li><a href="/webcam">Real-time</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="details">
+        <h1>Real-time Detection of PPE</h1>
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <img src="../static/images/second.jpg" alt="YOLOv8 Results 1">
+        </div>
+        <div class="feature-item">
+            <img src="../static/images/first.png" alt="YOLOv8 Results 2">
+        </div>
+        <div class="feature-item">
+            <img src="../static/images/third.jpg" alt="YOLOv8 Results 3">
+        </div>
+    </section>
+
+    <div class="main">
+        <div class="subpart1">
+            <h2>Personal Protective Equipment Detection using YOLOv8</h2>
+            <p>This system uses YOLOv8 to detect personal protective equipment in real-time, ensuring safety at work sites.</p>
+        </div>
+        <div class="subpart2">
+            <figure>
+                <img src="../static/images/ppebig.jpg" alt="Real-time Detection of PPE">
+                <figcaption>Real-time Detection of PPE</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <footer>
+        <p>Real-time Detection of PPE</p>
+    </footer>
+</body>
+</html>
