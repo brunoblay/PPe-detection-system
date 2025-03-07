@@ -1,7 +1,6 @@
 
 # Personal Protective Equipment Detection using YOLOv8
 
-![Project Logo](https://github.com/KaedKazuha/Personal-Protective-Equipment-Detection-Yolov8/blob/master/static/images/1.jpg?raw=true)
 
 ## Table of Contents
 1. Introduction
@@ -31,9 +30,9 @@ Before using the application, ensure you have the following dependencies install
 
 ## 3. Installation
 To set up the project on your local machine, follow these steps:
-1. Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine
 
-```https://github.com/KaedKazuha/Personal-Protective-Equipment-Detection-Yolov8/```
+
 
 
 2. Change into the project directory:
